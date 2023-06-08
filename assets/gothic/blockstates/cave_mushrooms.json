@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "gothic:block/cave_mushrooms"
+      },
+      {
+        "model": "gothic:block/cave_mushrooms",
+        "y": 90
+      },
+      {
+        "model": "gothic:block/cave_mushrooms",
+        "y": 180
+      },
+      {
+        "model": "gothic:block/cave_mushrooms",
+        "y": 270
+      }
+    ]
+  }
+}

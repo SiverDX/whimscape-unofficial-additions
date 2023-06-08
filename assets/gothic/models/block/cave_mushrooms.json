@@ -1,0 +1,115 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "gothic:blocks/cave_mushrooms",
+		"mushroom": "gothic:blocks/cave_mushrooms"
+	},
+	"elements": [
+		{
+			"name": "Hat",
+			"from": [7, 3, 5],
+			"to": [11, 6, 9],
+			"faces": {
+				"north": {"uv": [8, 11, 12, 14], "texture": "#mushroom"},
+				"east": {"uv": [8, 4, 12, 7], "texture": "#mushroom"},
+				"south": {"uv": [12, 1, 16, 4], "texture": "#mushroom"},
+				"west": {"uv": [12, 4, 16, 7], "texture": "#mushroom"},
+				"up": {"uv": [12, 11, 8, 7], "texture": "#mushroom"},
+				"down": {"uv": [16, 7, 12, 11], "texture": "#mushroom"}
+			}
+		},
+		{
+			"name": "Stem",
+			"from": [8, 0, 6],
+			"to": [10, 3, 8],
+			"faces": {
+				"north": {"uv": [14, 12, 16, 15], "texture": "#mushroom"},
+				"east": {"uv": [12, 12, 14, 15], "texture": "#mushroom"},
+				"south": {"uv": [14, 13, 16, 16], "texture": "#mushroom"},
+				"west": {"uv": [12, 13, 14, 16], "texture": "#mushroom"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#mushroom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Stem2",
+			"from": [4, 0, 9],
+			"to": [5, 3, 10],
+			"faces": {
+				"north": {"uv": [8, 0, 9, 3], "texture": "#mushroom"},
+				"east": {"uv": [9, 0, 10, 3], "texture": "#mushroom"},
+				"south": {"uv": [6, 0, 7, 3], "texture": "#mushroom"},
+				"west": {"uv": [7, 0, 8, 3], "texture": "#mushroom"},
+				"down": {"uv": [5, 0, 6, 1], "texture": "#mushroom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hat2",
+			"from": [3, 3, 8],
+			"to": [6, 5, 11],
+			"faces": {
+				"north": {"uv": [0, 3, 3, 5], "texture": "#mushroom"},
+				"east": {"uv": [6, 5, 3, 7], "texture": "#mushroom"},
+				"south": {"uv": [3, 3, 6, 5], "texture": "#mushroom"},
+				"west": {"uv": [0, 5, 3, 7], "texture": "#mushroom"},
+				"up": {"uv": [0, 7, 3, 10], "texture": "#mushroom"},
+				"down": {"uv": [0, 0, 3, 3], "rotation": 270, "texture": "#mushroom"}
+			}
+		},
+		{
+			"name": "Hat_top",
+			"from": [8, 6, 6],
+			"to": [10, 7, 8],
+			"faces": {
+				"north": {"uv": [10, 0, 12, 1], "texture": "#mushroom"},
+				"east": {"uv": [10, 1, 12, 2], "texture": "#mushroom"},
+				"south": {"uv": [12, 1, 14, 2], "texture": "#mushroom"},
+				"west": {"uv": [12, 0, 14, 1], "texture": "#mushroom"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#mushroom"},
+				"down": {"uv": [0, 14, 2, 16], "texture": "#mushroom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hat2_top",
+			"from": [4, 5, 9],
+			"to": [5, 6, 10],
+			"faces": {
+				"north": {"uv": [2, 7, 3, 8], "texture": "#mushroom"},
+				"east": {"uv": [0, 7, 1, 8], "texture": "#mushroom"},
+				"south": {"uv": [1, 8, 2, 9], "texture": "#mushroom"},
+				"west": {"uv": [1, 7, 2, 8], "texture": "#mushroom"},
+				"up": {"uv": [0, 8, 1, 9], "texture": "#mushroom"},
+				"down": {"uv": [0, 15, 1, 16], "texture": "#mushroom", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [1, 5.25, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1, 5.25, 0.75]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 4.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 4.75, 0]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		},
+		"gui": {
+			"rotation": [16, 26, 0],
+			"translation": [0, 5, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 13, 0]
+		},
+		"fixed": {
+			"translation": [0.5, 4, -1.5],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}
