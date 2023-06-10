@@ -1,3 +1,4 @@
 Mod support for the resourcepack `Whimscape`
 
-https://www.curseforge.com/minecraft/texture-packs/whimscape
+Whimscape: https://www.curseforge.com/minecraft/texture-packs/whimscape
+Whimscape Unofficial Additions: https://www.curseforge.com/minecraft/texture-packs/whimscape-unofficial-additions
