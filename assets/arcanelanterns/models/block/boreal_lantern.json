@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_lantern",
+	"textures": {
+		"lantern": "arcanelanterns:blocks/boreal_lantern"
+	}
+}
