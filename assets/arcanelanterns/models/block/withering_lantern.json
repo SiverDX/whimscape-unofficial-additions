@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_lantern_vanilla",
+	"textures": {
+		"lantern": "arcanelanterns:blocks/withering_lantern"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_hanging_lantern_vanilla",
+	"textures": {
+		"lantern": "arcanelanterns:blocks/wailing_lantern"
+	}
+}
